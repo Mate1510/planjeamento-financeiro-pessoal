@@ -1,0 +1,66 @@
+.metasContainer {
+  margin: 8.5vh auto;
+  width: 80%;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3%;
+}
+
+.card {
+  height: 32vh;
+  width: 30%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContent {
+  width: 90%;
+}
+
+.newMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metaTitle {
+  margin-bottom: 0.5rem;
+}
+
+.metaHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.metaOptions {
+  display: flex;
+}
+
+.metaValue {
+  margin-bottom: 0.2rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.progressBar {
+  margin: 1rem 0;
+}
+
+.metaDate {
+  font-size: 0.9rem;
+  color: gray;
+}

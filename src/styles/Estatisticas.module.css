@@ -1,0 +1,52 @@
+.backgroundContainer {
+  height: 100vh;
+  background: #f0f0f0;
+  margin: 8.5vh auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4vh auto;
+  width: 80%;
+  height: 100vh;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 34%;
+  padding: 10px;
+}
+
+.biggerCard {
+  width: 70%;
+  padding: 10px;
+}
+
+.chartContainer {
+  height: 24vh;
+}
+
+.biggerChartContainer {
+  height: 28vh;
+}

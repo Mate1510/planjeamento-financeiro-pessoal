@@ -1,0 +1,49 @@
+.backgroundContainer {
+  background-color: #f0f0f0;
+  margin: 8.5vh auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContainer {
+  margin: 8.5vh auto 2vh;
+  width: 70%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.mainFooter {
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigationLinks {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.endFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.navigationLinks:hover {
+  color: blue;
+}

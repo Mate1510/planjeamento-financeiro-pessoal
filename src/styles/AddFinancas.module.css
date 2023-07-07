@@ -1,0 +1,16 @@
+.inputContainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 8.5vh auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middleForm {
+    display: flex;
+    align-items: center;
+}
